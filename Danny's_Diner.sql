@@ -56,7 +56,7 @@ VALUES
 -- 1.What is the total amount each customer spent at the restaurant?
 
 SELECT s.customer_id,
-CONCAT(SUM(m.price),"$") AS total_amount_Spent
+CONCAT("$",SUM(m.price)) AS total_amount_Spent
 FROM sales s 
 JOIN menu m 
 ON s.product_id=m.product_id
@@ -159,7 +159,7 @@ WHERE rk=1;
 
 SELECT s.customer_id,
 COUNT(m.product_name) AS total_items,
-CONCAT(SUM(m.price),'$') AS amount_spent
+CONCAT('$',SUM(m.price)) AS amount_spent
 FROM sales s
 JOIN menu m
 ON s.product_id=m.product_id
@@ -171,7 +171,7 @@ GROUP BY 1;
 -- 9.If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 
 SELECT s.customer_id,
-       CONCAT(SUM(IF(m.product_name = "sushi", 20 * m.price, m.price * 10)),'$') AS total_points
+       SUM(IF(m.product_name = "sushi", 20 * m.price, m.price * 10)) AS total_points
 FROM sales AS s
 JOIN menu AS m 
 ON s.product_id = m.product_id
