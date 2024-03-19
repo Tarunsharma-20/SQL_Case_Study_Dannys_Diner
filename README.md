@@ -1,6 +1,6 @@
 ## Case Study 1: Danny's Diner:
 
-![Screenshot 2024-03-18 041502](https://github.com/Kunalgupta-14/SQL_CASE_STUDY_DANY-S_DINER/assets/160588064/21c8d77a-6df9-46da-8a5d-c74966a76bcb)
+![D1](https://github.com/Tarunsharma-20/SQL-Case-Study-Danny-s-Diner/assets/160588350/2e6b605d-f8ae-44ad-b721-368030c23121)
 
 ### Problem Statement:
 Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. Having this deeper connection with his customers will help him deliver a better and more personalised experience for his loyal customers.
@@ -18,7 +18,7 @@ Danny has shared with you 3 key datasets for this case study:
 You can inspect the entity relationship diagram and example data below.
 
 ### Entity Relationship Diagram:
-![Screenshot 2024-03-18 041525](https://github.com/Kunalgupta-14/SQL_CASE_STUDY_DANY-S_DINER/assets/160588064/11223853-1396-4598-8689-3bc3aed94a7f)
+![Screenshot (40)](https://github.com/Tarunsharma-20/SQL-Case-Study-Danny-s-Diner/assets/160588350/9d72df5d-0bc0-4d00-969e-0312b05e4bb9)
 
 ### Case Study Questions:
 1. What is the total amount each customer spent at the restaurant?
